@@ -1,0 +1,43 @@
+# Site Settings
+title: DP | Douglas Porto Blog
+email: douglasalexandre7@gmail.com
+description: "Web Developer | Front End"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.douglasporto.com.br" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+
+# User Settings
+username: DOUGLASPORTO
+user_description: Web Developer | Front End.
+disqus_username: disqus_Y3loMDcVS3
+
+# Social Media
+# Remove the item if you don't need it
+github_username: douglasporto
+facebook_username: dgsapenas
+twitter_username: dgsapenas
+instagram_username: dgsapenas
+linkedin_username: douglas-porto-b754817a
+medium_username: medium_username
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+gems:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Sobre Mim
+    url: /sobre-mim/
+  - title: Contato
+    url: /contato/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
