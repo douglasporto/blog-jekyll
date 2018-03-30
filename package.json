@@ -1,14 +1,14 @@
 {
-  "name": "thiagorossener.github.io",
+  "name": "Douglas Porto Blog - Jekyll",
   "version": "1.0.0",
-  "description": "Blog pessoal de Thiago Rossener.",
+  "description": "Person Blog Douglas Porto.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagorossener/thiagorossener.github.io.git"
+    "url": "git+https://github.com/douglasporto/blog-jekyll.git"
   },
   "keywords": [
     "jekyll",
