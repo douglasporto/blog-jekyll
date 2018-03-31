@@ -7,7 +7,7 @@ url: "https://www.douglasporto.com.br" # the base hostname & protocol for your s
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: DOUGLASPORTO
+username: Douglas Porto
 user_description: Web Developer | Front End.
 disqus_username: disqus_Y3loMDcVS3
 
@@ -18,7 +18,7 @@ facebook_username: dgsapenas
 twitter_username: dgsapenas
 instagram_username: dgsapenas
 linkedin_username: douglas-porto-b754817a
-medium_username: medium_username
+# medium_username: medium_username
 
 # Build settings
 markdown: kramdown
