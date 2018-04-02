@@ -3,11 +3,11 @@ title: DP | Douglas Porto Blog
 email: douglasalexandre7@gmail.com
 description: "Web Developer | Front End"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.douglasporto.com.br" # the base hostname & protocol for your site
+url: "http://douglasporto.com.br" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Douglas Porto
+username: DouglasPorto
 user_description: Web Developer | Front End.
 disqus_username: disqus_Y3loMDcVS3
 

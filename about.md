@@ -5,7 +5,7 @@ description: Um pouco de mim.
 permalink: /sobre-mim/
 ---
 
-<img itemprop="image" class="img-rounded" src="/assets/img/profile.PNG" alt="Douglas Porto">
+<img itemprop="image" class="img-rounded" src="/assets/img/profile.png" alt="Douglas Porto">
 
 ## Sobre mim
 
@@ -27,3 +27,5 @@ Mesmo ainda sem saber programar, entrei numa empresa em 2010 de desenvolvimento 
 
 Bom, desde 2010 venho ganhando experiência e aprendendo cada vez mais.
 Hoje me considero FullStack, podendo trabalhar com BackEnd tanto quanto FrontEnd.
+
+[Veja meu currículo online](/curriculo)

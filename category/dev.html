@@ -1,14 +1,14 @@
 ---
 layout: main
-main-class: 'frontend'
+main-class: 'dev'
 ---
 
-<main class="home post-frontend" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <h1 class="title-category">FRONT-END</h1>
+<main class="home post-dev" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    <h1 class="title-category">DEV</h1>
     <div id="grid" class="row flex-grid">
     {% for post in site.posts %}
-        {% if post.category == 'Front-End' %}
-            <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        {% if post.category == 'DEV' %}
+            <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">                
                 <div class="box-body">
                     {% if post.image %}
                         <div class="cover">
