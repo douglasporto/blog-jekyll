@@ -1,7 +1,7 @@
 .post
     position relative
     top rem(30px)
-    background #fff
+    background #444
     +above(cut)
         top rem(50px)
 
@@ -39,11 +39,15 @@
     h1.post-title 
         margin 0 auto
         line-height rem(40px)
+        text-shadow: 3px 3px #4f6274;
+        text-align: center
+        color: #FFF
         +above(cut)
             line-height rem(60px)
             margin 0 auto rem(10px)
     p.subtitle
-        color: darken(lightGray,30%)
+        color: #FFF
+        text-align: center
         font-size: rem(18px)
         margin 0 auto rem(10px)
         line-height rem(30px)
@@ -54,8 +58,10 @@
         mainFont(300)
         font-size rem(13px)
         letter-spacing 0
-        color: darken(lightGray,30%)
+        color: #FFF
+        text-align: center
         margin 0 auto
+        
         +above(cut)
             font-size rem(16px)
         span, time
@@ -71,14 +77,19 @@
     p, li
         color texts
         code
-            color #bf616a
-            word-wrap break-word
-            background lightGray
+            // color #bf616a
+            // word-wrap break-word
+            // background lightGray
             padding rem(3px) rem(5px)
-            border-radius 3px
+            // border-radius 3px
             font-size rem(18px)
+            color: #637a91
+            background: #000;
+            padding: 2px 5px;
+            border-radius: 5px;
     a
-        color #0000ee
+        color: texts;
+        border-bottom: 2px dashed texts;
         text-decoration none
     iframe
         margin-top rem(30px)
@@ -86,16 +97,19 @@
     h1, h2, h3, h4, h5, h6
         mainFont(700)
     h1
+        color texts
         font-size rem(32px)
         line-height 1.4
         +above(cut)
             font-size rem(47px)
     h2
+        color: texts
         font-size rem(24px)
         line-height 1.4
         +above(cut)
             font-size rem(37px)
     h3
+        color: texts
         font-size rem(20px)
         line-height 1.4
         +above(cut)
@@ -152,10 +166,10 @@
     bottom -100%
     display block
     width 100%
-    background-color #fff
+    background-color #2b2b2b
     padding rem(10px)
     transition bottom .5s
-    border-top 1px solid #f2f2f2
+    border-top 1px solid texts
     .bar
         display block
         width 100%
@@ -201,9 +215,9 @@
             letter-spacing 0.05rem
         a
             font-size rem(14px)
-            color primaryDark
+            color texts
             display inline-block
-            border 1px solid primaryDark
+            border 1px solid texts
             border-radius rem(20px)
             padding 0 rem(10px)
             margin-right rem(2px)
@@ -216,6 +230,7 @@
                 background-color primaryDark
     .tag-title
         mainFont(300)
+        color texts
         font-size rem(38px)
         margin-top rem(60px)
         center(rem(800px))

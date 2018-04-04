@@ -22,10 +22,10 @@ Qual eu devo usar?
 
 Qual devo aprender?
 
-Os 3 Frameworks mais conhecidos, na data que posto este artigo, são:///////
-- Angular (Google)
-- React (Facebook)
-- VueJs (Comunidade)
+Os 3 Frameworks mais conhecidos, na data que posto este artigo, são:
+- [Angular (Google)](https://angular.io/)
+- [React (Facebook)](https://reactjs.org/)
+- [Vue.js (Comunidade)](https://vuejs.org/)
 
 **Mas qual devo escolher?**
 
