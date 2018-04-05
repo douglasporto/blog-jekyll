@@ -15,8 +15,8 @@ twitter_text: Problemas com plugins do WordPress NUNCA MAIS. Jekyll, o melhor ge
 introduction: Problemas com plugins do WordPress NUNCA MAIS. Jekyll, o melhor gerador de site estático feito para desenvolvedores.  
 ---
 
-Confeço que sempre que falavam de Blog, na minha cabeça vinha a imagem do [WordPress](https://br.wordpress.com/). Longe de mim julga-lo, já fiz diversos temas e trabalhos com esse CMS.
-Porém, sempre ficava inseguro quanto sua performace por conta de plugins e etc.
+Confesso que sempre que falavam de Blog, na minha cabeça vinha a imagem do [WordPress](https://br.wordpress.com/). Longe de mim julga-lo, já fiz diversos temas e trabalhos com esse CMS.
+Porém, sempre ficava inseguro quanto sua performance por conta de plugins e etc.
 
 Quando comecei a inspecionar alguns blog's de uns desenvolvedores que gosto, tomei um susto. Como um desenvolvedor faz um blog em html?
 
@@ -75,5 +75,5 @@ A segunda forma é dar o comando em seu terminal `bundle exec jekyll build`. Voc
 
 Pronto, seu blog está em produção. Simples assim.
 
-E aí, gostou desta dica? Comente ai embaixo e vamos trocar uma idéia.
+E aí, gostou desta dica? Comente ai embaixo e vamos trocar uma ideia.
 
