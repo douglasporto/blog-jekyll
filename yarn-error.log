@@ -1,0 +1,74 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.11.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "Douglas Porto Blog - Jekyll",
+    "version": "1.0.0",
+    "description": "Person Blog Douglas Porto.",
+    "main": "gulpfile.js",
+    "scripts": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/douglasporto/blog-jekyll.git"
+    },
+    "keywords": [
+      "jekyll",
+      "blog",
+      "css",
+      "js",
+      "gulp",
+      "stylus"
+    ],
+    "author": "Thiago Rossener",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/thiagorossener/thiagorossener.github.io/issues"
+    },
+    "homepage": "https://github.com/thiagorossener/thiagorossener.github.io#readme",
+    "devDependencies": {
+      "autoprefixer-stylus": "^0.14.0",
+      "browser-sync": "^2.18.13",
+      "child_process": "^1.0.2",
+      "gulp": "^3.9.1",
+      "gulp-concat": "^2.6.1",
+      "gulp-imagemin": "^3.3.0",
+      "gulp-plumber": "^1.1.0",
+      "gulp-stylus": "^2.6.0",
+      "gulp-uglify": "^3.0.0",
+      "jeet": "^7.1.0",
+      "kouto-swiss": "^1.1.0",
+      "minimist": "^1.2.0",
+      "rupture": "^0.6.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: package.json: Name contains illegal characters
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at module.exports.exports.default (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:37549:13)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:52434:51
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
+      at <anonymous>
