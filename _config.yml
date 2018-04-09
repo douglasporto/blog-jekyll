@@ -4,7 +4,8 @@ email: douglasalexandre7@gmail.com
 description: "Web Developer | Front End"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://douglasporto.com.br" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+google_analytics: "UA-117260112-1"
+
 
 # User Settings
 username: DouglasPorto
