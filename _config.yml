@@ -35,8 +35,8 @@ gems:
 links:
   - title: Home
     url: /
-  - title: Sobre Mim
-    url: /sobre-mim/
+  - title: Quem sou
+    url: /quem-sou/
   - title: Contato
     url: /contato/
 

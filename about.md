@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Sobre Mim
+title: Quem Sou
 description: Um pouco de mim.
-permalink: /sobre-mim/
+permalink: /quem-sou/
 ---
 
 <img itemprop="image" class="img-rounded" src="/assets/img/profile.png" alt="Douglas Porto">
