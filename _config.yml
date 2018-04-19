@@ -32,6 +32,11 @@ collections:
 # Plugins
 gems:
   - jemoji
+  
+#SKILLS
+skill:
+  - name: Vue.js
+    img: vuejs
 
 # Links to include in menu navigation
 # For external links add external: true

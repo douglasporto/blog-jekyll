@@ -8,7 +8,7 @@ layout: main
     <header class="header">
       <h2 class="header-title">Últimos Artigos</h2>
     </header>
-    <div id="grid" class="row flex-grid">        
+    <div id="grid" class="row flex-grid">
     {% for post in site.posts limit:10 %}
         <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <span class="category">
@@ -113,42 +113,6 @@ layout: main
             </ul>
           </div>
         </div>
-        <!-- <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-            <span class="category">
-                <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.main-class }}">
-                    <span class="category">{{ projects.category }}</span>
-                </a>
-            </span>
-            <div class="box-body">
-                {% if projects.image %}
-                    <div class="cover">
-                        {% include new-post-tag.html date=projects.date %}
-                        <a href="{{ projects.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
-                            <img src="assets/img/placeholder.png" data-url="{{ projects.image }}" class="preload">
-                        </a>
-                    </div>
-                {% endif %}
-                <div class="box-info">
-                    <meta itemprop="datePublished" content="{{ projects.date | date_to_xmlschema }}">
-                    <time itemprop="datePublished" datetime="{{ projects.date | date_to_xmlschema }}" class="date">
-                        {% include date.html date=projects.date %}
-                    </time>
-                    <a class="post-link" href="{{ projects.url | prepend: site.baseurl }}">
-                        <h2 class="post-title" itemprop="name">
-                            {{ projects.title }}
-                        </h2>
-                    </a>
-                    <a class="post-link" href="{{ projects.url | prepend: site.baseurl }}">
-                        <p class="description">{{ projects.introduction }}</p>
-                    </a>
-                    <div class="tags">
-                        {% for tag in projects.tags %}
-                            <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-        </article> -->
     {% endfor %}
     </div>
     <div class="footer">
@@ -158,5 +122,18 @@ layout: main
     </div>
   </section>
   <!-- PROJECTS END -->
-  
+  <!-- SKILLS -->
+  <section>
+    <header class="header">
+      <h2 class="header-title">Minhas Habilidades</h2>
+    </header>
+  </section>
+  <div class="skill">
+    <ul>
+    {% for skill in site.skill %}
+        <li>{{ skill.name }} <img src="assets/img/skills/vuejs.svg"></li>
+    {% endfor %}
+    </ul>
+  </div>
+  <!-- SKILLS END -->
 </main>
