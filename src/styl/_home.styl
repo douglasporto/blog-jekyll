@@ -5,7 +5,90 @@ main
     padding-top rem(80px)
     +above(cut)
         padding-top rem(100px)
-
+section
+    header
+        border-bottom 8px solid lightGray
+        margin 0 auto 32px
+        margin 0 auto 2rem
+        max-width 730px
+        max-width 45.625rem        
+        padding 24px
+        padding 1.5rem
+        position relative
+        text-align center
+        :before
+            border-bottom 20px solid transparent
+            border-left 20px solid transparent
+            border-right 20px solid transparent            
+            border-top 20px solid lightGray
+            content ""
+            height 0
+            left 50%
+            margin-left -20px
+            position absolute            
+            top 100%    
+            width 0
+        h2
+            color lightGray
+    .footer
+        color lightGray
+        text-align center
+        a 
+            border: 3px solid lightGray
+            background-color transparent
+            color lightGray
+            border-radius .25em
+            padding 0 32px
+            padding 0 2rem
+            color lightGray
+            text-align center
+            cursor pointer
+            -webkit-font-smoothing antialiased
+            -moz-osx-font-smoothing grayscale
+            -webkit-appearance none
+            -moz-appearance none
+            appearance none
+            line-height 37px
+            line-height 2.3125rem
+            display inline-block
+            -webkit-transition background-color .2s cubic-bezier(.02,.01,.47,1),color .2s cubic-bezier(.02,.01,.47,1)
+            transition background-color .2s cubic-bezier(.02,.01,.47,1),color .2s cubic-bezier(.02,.01,.47,1)
+            font-weight 700
+            text-decoration none
+            font-size inherit
+.projects
+    background lightGray
+    color primaryDark !important
+    padding-top 50px
+    padding-bottom 50px
+    .header
+        border-bottom 8px solid primaryDark !important
+        :before          
+            border-top 20px solid primaryDark !important
+    .header-title
+        color primaryDark !important
+    .button 
+        border: 3px solid primaryDark !important 
+        color primaryDark !important
+    .box-item-info
+        flex 1 0 300px
+        margin 0 0 rem(30px)
+        display inline-block
+        min-height rem(285px)
+        transition all .3s
+        position relative
+        z-index 1
+        +above(cut)
+            margin 0 rem(15px) rem(30px)
+        .info-header
+            center(rem(1000px))
+            padding-top 0
+            padding-bottom 0
+            margin-bottom 0
+            .post-title
+                color primaryDark !important
+        .description
+            center(rem(1000px))
 .row
     center(100%)
     margin 0px 10px
