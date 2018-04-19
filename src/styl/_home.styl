@@ -6,6 +6,7 @@ main
     +above(cut)
         padding-top rem(100px)
 section
+    padding-bottom 50px
     header
         border-bottom 8px solid lightGray
         margin 0 auto 32px
@@ -89,6 +90,23 @@ section
                 color primaryDark !important
         .description
             center(rem(1000px))
+    .footer-info
+            bottom 0
+            position absolute
+            ul
+                list-style none
+                li
+                    padding: 10px 0;
+                    span
+                        padding: 0 10px;
+            .project-url            
+            .tags
+                a
+                    color primaryDark
+                    text-decoration: none;
+                    &:hover
+                        color themeColor
+                    
 .row
     center(100%)
     margin 0px 10px
@@ -190,6 +208,9 @@ section
             padding 0 rem(8px)
             position absolute
             margin-top rem(-35px)
+        .cover-project
+            a:before
+                background-image url(../../assets/img/icons/imac.svg) !important
         .cover
             position relative
             a:before
