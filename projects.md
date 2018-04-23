@@ -3,7 +3,8 @@ layout: main
 ---
 
 <main class="home projects" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    {% for projects in site.projects %}
+    {% assign items = site.projects | sort: 'date' | reverse %}
+    {% for projects in items %}
         {% assign mod = forloop.index | modulo: 2 %}
         <div id="grid" class="row flex-grid {%if mod == 0 %} grid-invert {% endif %}">
           <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">            
