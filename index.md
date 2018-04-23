@@ -56,12 +56,14 @@ layout: main
   </section>
   <!-- POSTS END -->
   <!-- PROJECTS -->
+  {% if site.projects %}
   <section class="projects">
     <header class="header">
       <h2 class="header-title">Último Projeto</h2>
     </header>
-    <div id="grid" class="row flex-grid">        
-    {% for projects in site.projects limit:1 %}
+    <div id="grid" class="row flex-grid">
+    {% assign items = site.projects | sort: 'date' | reverse %}
+    {% for projects in items limit:1 %}
       <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">            
             <div class="box-body">
                 {% if projects.image %}
@@ -91,24 +93,25 @@ layout: main
                     </time>
                 </li>
                 <li>
-                    <div class="project-url">
-                      <svg data-v-5ea290a8="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path data-v-5ea290a8="" d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path data-v-5ea290a8="" d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
-                      {% if projects.link %}
-                      <span><a href="{{ projects.url | prepend: site.baseurl }}">{{ projects.link }}</a></span>
-                      {% else %}
-                      <span>Projeto em andamento ou fora do ar</span>
-                      {% endif %}
-                    </div>
+                  <div class="project-url">
+                    <svg data-v-5ea290a8="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path data-v-5ea290a8="" d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path data-v-5ea290a8="" d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    {% if projects.link %}
+                    <span><a href="{{ projects.url | prepend: site.baseurl }}">{{ projects.link }}</a></span>
+                    {% else %}
+                    <span>Projeto em andamento ou fora do ar</span>
+                    {% endif %}
+                  </div>
                 </li>
                 <li>
-                    <div class="tags">
-                        <svg data-v-5ea290a8="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path data-v-5ea290a8="" d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line data-v-5ea290a8="" x1="7" y1="7" x2="7" y2="7"></line></svg>
-                        
-                        {% for tag in projects.tags %}
-                            <span>#{{ tag }}</span>
-                        {% endfor %}
-                        
-                    </div>    
+                  <div class="tags">
+                    <svg data-v-5ea290a8="" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag">
+                      <path data-v-5ea290a8="" d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                    <line data-v-5ea290a8="" x1="7" y1="7" x2="7" y2="7"></line>
+                    </svg>                      
+                    {% for tag in projects.tags %}
+                        <span>#{{ tag }}</span>
+                    {% endfor %}                        
+                  </div>    
                 </li>
             </ul>
           </div>
@@ -121,19 +124,9 @@ layout: main
       </span>
     </div>
   </section>
+  {% endif %}
   <!-- PROJECTS END -->
   <!-- SKILLS -->
-  <section>
-    <header class="header">
-      <h2 class="header-title">Minhas Habilidades</h2>
-    </header>
-  </section>
-  <div class="skill">
-    <ul>
-    {% for skill in site.skill %}
-        <li>{{ skill.name }} <img src="assets/img/skills/vuejs.svg"></li>
-    {% endfor %}
-    </ul>
-  </div>
+  {% include skill.html %}
   <!-- SKILLS END -->
 </main>

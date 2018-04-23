@@ -1,0 +1,15 @@
+<section class="section-skill">
+  <header class="header">
+    <h2 class="header-title">Minhas Habilidades</h2>
+  </header>
+  <div class="skill">
+    <ul>
+    {% for skill in site.skill %}
+        <li>
+          <img src="{{ site.url }}/assets/img/skills/{{ skill.img }}.svg"><br>
+          {{ skill.name }}
+        </li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>

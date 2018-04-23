@@ -35,9 +35,48 @@ gems:
   
 #SKILLS
 skill:
+  - name: HTML5
+    img: html5
+  - name: jekyll
+    img: jekyll
+  - name: WordPress
+    img: wordpress
+  - name: CSS3
+    img: css3
+  - name: SASS
+    img: sass
+  - name: Responsive Web 
+    img: responsive
+  - name: bootstrap
+    img: bootstrap
+  - name: Javascript
+    img: javascript
   - name: Vue.js
     img: vuejs
-
+  - name: JQuery
+    img: jquery
+  - name: Node.js
+    img: nodejs  
+  - name: Gulp.js
+    img: gulp  
+  - name: PHP
+    img: php
+  - name: Laravel  
+    img: laravel 
+  - name: Codeigniter
+    img: codeigniter
+  - name: Apache
+    img: apache
+  - name: Git
+    img: git
+  - name: GitHub 
+    img: github
+  - name: GitLab 
+    img: gitlab
+  - name: Linux
+    img: linux
+  - name: Photoshop
+    img: photoshop
 # Links to include in menu navigation
 # For external links add external: true
 links:
