@@ -85,7 +85,9 @@ links:
   - title: Quem sou
     url: /quem-sou/
   - title: Contato
-    url: /contato/
+    url: /contato/  
+  - title: Projetos
+    url: /projects/
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

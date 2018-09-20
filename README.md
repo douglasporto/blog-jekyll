@@ -1,6 +1,8 @@
 # Jekflix Template
 ![Cover Image](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1505354182/jekflix-logo_mfngps.png)
 
+Para Rodar no C9 `jekyll serve --host $IP --port $PORT --baseurl ''`
+
 See the [demo here](https://www.rossener.com/jekflix-template).
 
 ## What is it?
