@@ -6,10 +6,11 @@ image: '/assets/img/posts/bg-know-gulp.png'
 category: 'Front-End'
 main-class: 'frontend'
 tags:
-- VueJs
+- Gulp
 - Javascript
-twitter_text: Uma pequena introdução ao Framework em javascript, Vuejs.
-introduction: Uma pequena introdução ao Framework em javascript, Vuejs.
+- Automatizador de Tarefas
+twitter_text: Conheça o mundo dos automatizador de tarefas Gulp.
+introduction: Conheça o mundo dos automatizador de tarefas Gulp.
 ---
 
 
@@ -238,4 +239,3 @@ gulp.task('default', ['es5', 'stylus', 'watch']);
 Agora ao rodar `gulp` ele fará o es5, depois o stylus e começará a observar com o watch.
 
 Bom, é isso ai galera. Este foi um exemplo muito simples de como funciona o **[Gulp](https://gulpjs.com/)**. Conhece outras coisas que da para fazer com ele? Coloque aqui embaixo e vamos conversar!
-
